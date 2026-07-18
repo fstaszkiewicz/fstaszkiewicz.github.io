@@ -1,7 +1,50 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime JS
+@inject IStringLocalizer<SharedResources> Loc
+@using System.Globalization
 
-<div class="page">
-    <main>
+@if (isLoading)
+{
+    <div class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <span>Loading...</span>
+    </div>
+}
+
+<div class="portfolio-layout">
+    <header class="nav-header">
+        <nav class="navbar">
+            <a href="" class="nav-logo">FS</a>
+            <div class="nav-links">
+                <a href="#projects">@Loc["NavProjects"]</a>
+                <a href="#contact">@Loc["NavContact"]</a>
+                
+                <div class="lang-switcher">
+                    <span class="lang-btn @(IsPolish ? "" : "active")" @onclick='() => ChangeLang("en-US")'>EN</span>
+                    <span class="lang-separator">|</span>
+                    <span class="lang-btn @(IsPolish ? "active" : "")" @onclick='() => ChangeLang("pl-PL")'>PL</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
         @Body
     </main>
 </div>
+
+@code {
+    private bool isLoading = false;
+    private bool IsPolish => CultureInfo.CurrentCulture.Name.StartsWith("pl");
+
+    private async Task ChangeLang(string culture)
+    {
+        if (CultureInfo.CurrentCulture.Name.StartsWith(culture.Split('-')[0])) return;
+
+        isLoading = true;
+        StateHasChanged();
+        
+        await Task.Delay(100);
+        await JS.InvokeVoidAsync("localStorage.setItem", "language", culture);
+        await JS.InvokeVoidAsync("location.reload");
+    }
+}

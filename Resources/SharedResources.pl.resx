@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+
+  <data name="HeroGreeting" xml:space="preserve"><value>Cześć, nazywam się</value></data>
+  <data name="HeroName" xml:space="preserve"><value>Fabian Staszkiewicz.</value></data>
+  <data name="HeroSubtitle" xml:space="preserve"><value>Tworzę solidne systemy backendowe.</value></data>
+  <data name="HeroDesc" xml:space="preserve"><value>Jestem studentem informatyki i programistą specjalizującym się w tworzeniu skalowalnych aplikacji oraz architektur REST API. Obecnie skupiam się na budowaniu niezawodnych rozwiązań przy użyciu .NET Core, C# oraz Entity Framework. Aktywnie poszukuję możliwości odbycia letnich praktyk lub stażu.</value></data>
+  <data name="HeroBtn" xml:space="preserve"><value>Sprawdź mojego GitHuba!</value></data>
+  <data name="SectionProjects" xml:space="preserve"><value>Niektóre z moich projektów</value></data>
+  <data name="Featured" xml:space="preserve"><value>Wyróżniony projekt</value></data>
+  <data name="CinemaTitle" xml:space="preserve"><value>System Rezerwacji Kinowej</value></data>
+  <data name="CinemaDesc" xml:space="preserve"><value>Wielowarstwowe REST API do obsługi kina, zbudowane ściśle według zasad Clean Architecture, co zapewnia wysoką łatwość utrzymania i rozwoju.</value></data>
+  <data name="EsportsTitle" xml:space="preserve"><value>Platforma Turniejowa</value></data>
+  <data name="EsportsDesc" xml:space="preserve"><value>Aplikacja internetowa do zarządzania turniejami, zawierająca system ról i uprawnień oraz zautomatyzowane migracje bazy danych.</value></data>
+  <data name="AiTitle" xml:space="preserve"><value>AI Invoice Processing API</value></data>
+  <data name="AiDesc" xml:space="preserve"><value>Skonteneryzowana aplikacja backendowa, która integruje się z zewnętrznymi modelami AI poprzez Hugging Face API w celu analizy i przetwarzania danych z faktur.</value></data>
+  <data name="OtherProjects" xml:space="preserve"><value>Projekty akademickie</value></data>
+  <data name="TricityTitle" xml:space="preserve"><value>Rekomendator Tras</value></data>
+  <data name="TricityDesc" xml:space="preserve"><value>System rekomendacyjny zaprojektowany do sugerowania optymalnych tras w Trójmieście w oparciu o preferencje użytkownika i parametry terenu.</value></data>
+  <data name="DjangoTitle" xml:space="preserve"><value>System Biblioteczny</value></data>
+  <data name="DjangoDesc" xml:space="preserve"><value>Aplikacja webowa do zarządzania biblioteką zbudowana w Django. Obsługuje inwentarz książek, wypożyczenia użytkowników i zadania administracyjne.</value></data>
+  <data name="AisdTitle" xml:space="preserve"><value>Algorytmy i Struktury Danych</value></data>
+  <data name="AisdDesc" xml:space="preserve"><value>Implementacje podstawowych algorytmów i złożonych struktur danych, w tym autorskich kolejek priorytetowych oraz kompresji Huffmana.</value></data>
+  <data name="OopTitle" xml:space="preserve"><value>Projekty OOP</value></data>
+  <data name="OopDesc" xml:space="preserve"><value>Zbiór projektów akademickich demonstrujących podstawowe zasady programowania obiektowego (OOP) oraz wzorce projektowe.</value></data>
+  <data name="ContactTitle" xml:space="preserve"><value>Bądźmy w kontakcie</value></data>
+  <data name="ContactDesc" xml:space="preserve"><value>Obecnie poszukuję letniego stażu i nowych możliwości rozwoju. Niezależnie od tego, czy masz pytanie dotyczące moich projektów, czy po prostu chcesz się przywitać - postaram się odpowiedzieć!</value></data>
+  <data name="ContactBtn" xml:space="preserve"><value>Napisz do mnie</value></data>
+  <data name="NavProjects" xml:space="preserve"><value>Projekty</value></data>
+  <data name="NavContact" xml:space="preserve"><value>Kontakt</value></data>
+</root>

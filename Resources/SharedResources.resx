@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+
+  <data name="HeroGreeting" xml:space="preserve"><value>Hi, my name is</value></data>
+  <data name="HeroName" xml:space="preserve"><value>Fabian Staszkiewicz.</value></data>
+  <data name="HeroSubtitle" xml:space="preserve"><value>I build robust backend systems.</value></data>
+  <data name="HeroDesc" xml:space="preserve"><value>I'm a computer science student and a software developer specializing in building scalable applications and REST APIs. Currently, my main focus is developing reliable architectures using .NET Core, C#, and Entity Framework. I am actively looking for a summer internship opportunity.</value></data>
+  <data name="HeroBtn" xml:space="preserve"><value>Check out my GitHub!</value></data>
+  <data name="SectionProjects" xml:space="preserve"><value>Some Things I've Built</value></data>
+  <data name="Featured" xml:space="preserve"><value>Featured Project</value></data>
+  <data name="CinemaTitle" xml:space="preserve"><value>Cinema Reservation API</value></data>
+  <data name="CinemaDesc" xml:space="preserve"><value>A multi-layer REST API for movie theater operations, built strictly following Clean Architecture principles to ensure high maintainability.</value></data>
+  <data name="EsportsTitle" xml:space="preserve"><value>Esports Hub</value></data>
+  <data name="EsportsDesc" xml:space="preserve"><value>A web application for managing esports tournaments, featuring custom role-based access control and automated local database migrations.</value></data>
+  <data name="AiTitle" xml:space="preserve"><value>AI Invoice Processing API</value></data>
+  <data name="AiDesc" xml:space="preserve"><value>A containerized backend application that integrates with external AI models via the Hugging Face API to process and analyze data.</value></data>
+  <data name="OtherProjects" xml:space="preserve"><value>Other Noteworthy Projects</value></data>
+  <data name="TricityTitle" xml:space="preserve"><value>Tricity Trails Recommender</value></data>
+  <data name="TricityDesc" xml:space="preserve"><value>A recommendation system designed to suggest optimal trail routes across the Tricity area based on user preferences and terrain parameters.</value></data>
+  <data name="DjangoTitle" xml:space="preserve"><value>Django Library System</value></data>
+  <data name="DjangoDesc" xml:space="preserve"><value>A library management web application built with Django. It handles book inventories, user checkouts, and administrative tasks.</value></data>
+  <data name="AisdTitle" xml:space="preserve"><value>Algorithms &amp; Data Structures</value></data>
+  <data name="AisdDesc" xml:space="preserve"><value>Implementations of fundamental algorithms and complex data structures, including custom priority queues and Huffman compression.</value></data>
+  <data name="OopTitle" xml:space="preserve"><value>OOP Assignments</value></data>
+  <data name="OopDesc" xml:space="preserve"><value>A collection of academic assignments demonstrating core Object-Oriented Programming principles and design patterns.</value></data>
+  <data name="ContactTitle" xml:space="preserve"><value>Get In Touch</value></data>
+  <data name="ContactDesc" xml:space="preserve"><value>I'm currently looking for a summer internship and new opportunities. Whether you have a question regarding my projects or just want to say hi, I'll try my best to get back to you!</value></data>
+  <data name="ContactBtn" xml:space="preserve"><value>Say Hello</value></data>
+  <data name="NavProjects" xml:space="preserve"><value>Projects</value></data>
+  <data name="NavContact" xml:space="preserve"><value>Contact</value></data>
+</root>

@@ -2,20 +2,198 @@
 
 <div class="main-container d-flex flex-column justify-content-center">
     <section class="hero-section" style="max-width: 1000px; margin-top: 20vh;">
-        <h1 class="mono-text" style="margin-bottom: 30px;">Hi, my name is</h1>
+        <h1 class="mono-text" style="margin-bottom: 30px;">@Loc["HeroGreeting"]</h1>
         
-        <h2 class="big-heading">Fabian Staszkiewicz.</h2>
-        <h3 class="big-heading dark-heading">I build robust backend systems.</h3>
+        <h2 class="big-heading">@Loc["HeroName"]</h2>
+        <h3 class="big-heading dark-heading">@Loc["HeroSubtitle"]</h3>
         
         <p style="max-width: 540px; margin-top: 20px; font-size: 1.2rem;">
-            I'm a computer science student and a software developer specializing in building 
-            scalable applications and REST APIs. Currently, my main focus is developing 
-            reliable architectures using .NET Core, C#, and Entity Framework. 
-            I am actively looking for a summer internship opportunity.
+            @Loc["HeroDesc"]
         </p>
 
         <a href="https://github.com/fstaszkiewicz" target="_blank" class="outline-button">
-            Check out my GitHub!
+            @Loc["HeroBtn"]
         </a>
     </section>
+
+    <section class="projects-section" id="projects">
+        <h2 class="section-heading">@Loc["SectionProjects"]</h2>
+
+        <!-- Featured Project 1: Cinema API -->
+        <div class="featured-project">
+            <div class="project-content">
+                <p class="project-overline">@Loc["Featured"]</p>
+                <h3 class="project-title">@Loc["CinemaTitle"]</h3>
+                <div class="project-description">
+                    <p>@Loc["CinemaDesc"]</p>
+                </div>
+                <ul class="tech-list">
+                    <li>C#</li>
+                    <li>.NET</li>
+                    <li>Clean Architecture</li>
+                    <li>SQL Server</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/fstaszkiewicz/CinemaReservationApi" target="_blank">[ GitHub ]</a>
+                </div>
+            </div>
+            <div class="project-image">
+                <a href="https://github.com/fstaszkiewicz/CinemaReservationApi" target="_blank">
+                    <img src="images/cinema.png" alt="Cinema API" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Featured Project 2: Esports Hub -->
+        <div class="featured-project">
+            <div class="project-content">
+                <p class="project-overline">@Loc["Featured"]</p>
+                <h3 class="project-title">@Loc["EsportsTitle"]</h3>
+                <div class="project-description">
+                    <p>@Loc["EsportsDesc"]</p>
+                </div>
+                <ul class="tech-list">
+                    <li>ASP.NET Core MVC</li>
+                    <li>Entity Framework Core</li>
+                    <li>SQLite</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/fstaszkiewicz/esportshub" target="_blank">[ GitHub ]</a>
+                </div>
+            </div>
+            <div class="project-image">
+                <a href="https://github.com/fstaszkiewicz/esportshub" target="_blank">
+                    <img src="images/esports.png" alt="Esports Hub Project" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Featured Project 3: AI Invoice API -->
+        <div class="featured-project">
+            <div class="project-content">
+                <p class="project-overline">@Loc["Featured"]</p>
+                <h3 class="project-title">@Loc["AiTitle"]</h3>
+                <div class="project-description">
+                    <p>@Loc["AiDesc"]</p>
+                </div>
+                <ul class="tech-list">
+                    <li>C#</li>
+                    <li>.NET</li>
+                    <li>Docker</li>
+                    <li>Hugging Face API</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/fstaszkiewicz/smf-young-tech-challenge" target="_blank">[ GitHub ]</a>
+                </div>
+            </div>
+            <div class="project-image">
+                <a href="https://github.com/fstaszkiewicz/smf-young-tech-challenge" target="_blank">
+                    <img src="images/symfonia.png" alt="AI Integration Project" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Other Projects Grid -->
+        <h3 class="other-projects-heading section-heading" style="justify-content: center;">
+            @Loc["OtherProjects"]
+        </h3>
+        
+        <div class="other-projects-grid">
+            <!-- Tricity Trails -->
+            <div class="project-card">
+                <header>
+                    <h3 class="project-title">@Loc["TricityTitle"]</h3>
+                    <div class="project-description">
+                        <p>@Loc["TricityDesc"]</p>
+                    </div>
+                </header>
+                <footer>
+                    <ul class="tech-list">
+                        <li>Python</li>
+                        <li>Algorithms</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/fstaszkiewicz/tricity-trails-recommender" target="_blank">[ GitHub ]</a>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- Library Django -->
+            <div class="project-card">
+                <header>
+                    <h3 class="project-title">@Loc["DjangoTitle"]</h3>
+                    <div class="project-description">
+                        <p>@Loc["DjangoDesc"]</p>
+                    </div>
+                </header>
+                <footer>
+                    <ul class="tech-list">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>SQLite</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/fstaszkiewicz/biblioteka-django" target="_blank">[ GitHub ]</a>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- AiSD -->
+            <div class="project-card">
+                <header>
+                    <h3 class="project-title">@Loc["AisdTitle"]</h3>
+                    <div class="project-description">
+                        <p>@Loc["AisdDesc"]</p>
+                    </div>
+                </header>
+                <footer>
+                    <ul class="tech-list">
+                        <li>C/C++</li>
+                        <li>Data Structures</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/fstaszkiewicz/aisd" target="_blank">[ GitHub ]</a>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- OOP -->
+            <div class="project-card">
+                <header>
+                    <h3 class="project-title">@Loc["OopTitle"]</h3>
+                    <div class="project-description">
+                        <p>@Loc["OopDesc"]</p>
+                    </div>
+                </header>
+                <footer>
+                    <ul class="tech-list">
+                        <li>Java</li>
+                        <li>OOP</li>
+                        <li>Design Patterns</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/fstaszkiewicz/OOP" target="_blank">[ GitHub ]</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h3 class="contact-title">@Loc["ContactTitle"]</h3>
+        <p>@Loc["ContactDesc"]</p>
+        <a href="mailto:fabianstaszkiewicz3@gmail.com" class="contact-button">@Loc["ContactBtn"]</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="https://github.com/fstaszkiewicz" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/twoj-profil" target="_blank">LinkedIn</a>
+        </div>
+        <div class="credits">
+            Fabian Staszkiewicz
+        </div>
+    </footer>
 </div>
