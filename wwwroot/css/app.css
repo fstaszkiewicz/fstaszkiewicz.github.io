@@ -11,6 +11,11 @@
     --font-mono: 'Fira Code', 'Roboto Mono', monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 body {
     background-color: var(--navy);
     color: var(--slate);
