@@ -43,4 +43,5 @@
   <data name="NavContact" xml:space="preserve"><value>Contact</value></data>
   <data name="NavResume" xml:space="preserve"><value>Resume</value></data>
   <data name="CvFileName" xml:space="preserve"><value>cv_fabian_staszkiewicz_en.pdf</value></data>
+  <data name="ProjectDoc" xml:space="preserve"><value>Documentation</value></data>
 </root>
