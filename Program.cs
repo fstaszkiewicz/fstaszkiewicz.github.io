@@ -17,7 +17,7 @@ var host = builder.Build();
 
 var js = host.Services.GetRequiredService<IJSRuntime>();
 var result = await js.InvokeAsync<string>("localStorage.getItem", "language");
-var culture = new CultureInfo(result ?? "en-US"); // Jeśli nic nie ma, ładuj angielski
+var culture = new CultureInfo(result ?? "en-US");
 
 CultureInfo.DefaultThreadCurrentCulture = culture;
 CultureInfo.DefaultThreadCurrentUICulture = culture;

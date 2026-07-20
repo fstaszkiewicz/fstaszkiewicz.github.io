@@ -22,18 +22,18 @@
   <data name="SectionProjects" xml:space="preserve"><value>Niektóre z moich projektów</value></data>
   <data name="Featured" xml:space="preserve"><value>Wyróżniony projekt</value></data>
   <data name="CinemaTitle" xml:space="preserve"><value>System Rezerwacji Kinowej</value></data>
-  <data name="CinemaDesc" xml:space="preserve"><value>REST API do obsługi kina, zbudowane ściśle według zasad Clean Architecture, co zapewnia wysoką łatwość utrzymania i rozwoju.</value></data>
+  <data name="CinemaDesc" xml:space="preserve"><value>REST API do obsługi kina zaprojektowane z naciskiem na czytelną separację warstw i łatwość rozwoju.</value></data>
   <data name="EsportsTitle" xml:space="preserve"><value>Platforma Turniejowa</value></data>
-  <data name="EsportsDesc" xml:space="preserve"><value>Aplikacja internetowa do zarządzania turniejami, zawierająca system ról i uprawnień oraz zautomatyzowane migracje bazy danych.</value></data>
+  <data name="EsportsDesc" xml:space="preserve"><value>Aplikacja internetowa do zarządzania turniejami e-sportowymi, wyposażona w system ról i uprawnień użytkowników oraz mechanizm migracji bazy danych.</value></data>
   <data name="AiTitle" xml:space="preserve"><value>AI Invoice Processing API</value></data>
-  <data name="AiDesc" xml:space="preserve"><value>Skonteneryzowana aplikacja backendowa, która integruje się z zewnętrznymi modelami AI poprzez Hugging Face API w celu analizy i przetwarzania danych z faktur.</value></data>
+  <data name="AiDesc" xml:space="preserve"><value>Skonteneryzowana aplikacja backendowa integrująca się z Hugging Face API w celu zautomatyzowanej analizy i ekstrakcji danych z faktur.</value></data>
   <data name="OtherProjects" xml:space="preserve"><value>Projekty akademickie</value></data>
   <data name="TricityTitle" xml:space="preserve"><value>Rekomendator Tras</value></data>
-  <data name="TricityDesc" xml:space="preserve"><value>System rekomendacyjny zaprojektowany do sugerowania optymalnych tras w Trójmieście w oparciu o preferencje użytkownika i parametry terenu.</value></data>
+  <data name="TricityDesc" xml:space="preserve"><value>Desktopowa aplikacja w Pythonie rekomendująca trasy w Trójmieście. Wykorzystuje filtrowanie preferencji oraz scoring komfortu pogodowego bazujący na API Open-Meteo.</value></data>
   <data name="DjangoTitle" xml:space="preserve"><value>System Biblioteczny</value></data>
-  <data name="DjangoDesc" xml:space="preserve"><value>Aplikacja webowa do zarządzania biblioteką zbudowana w Django. Obsługuje inwentarz książek, wypożyczenia użytkowników i zadania administracyjne.</value></data>
+  <data name="DjangoDesc" xml:space="preserve"><value>System zarządzania biblioteką w Django. Obsługuje inwentarz, wypożyczenia i rezerwacje, oferując rozszerzony panel administracyjny, automatyzację oraz raportowanie (Pandas/Matplotlib).</value></data>
   <data name="AisdTitle" xml:space="preserve"><value>Algorytmy i Struktury Danych</value></data>
-  <data name="AisdDesc" xml:space="preserve"><value>Implementacje podstawowych algorytmów i złożonych struktur danych, w tym autorskich kolejek priorytetowych oraz kompresji Huffmana.</value></data>
+  <data name="AisdDesc" xml:space="preserve"><value>Implementacja kompresji plików algorytmem Huffmana oraz autorskiej kolejki priorytetowej Min-Heap w języku Python.</value></data>
   <data name="OopTitle" xml:space="preserve"><value>Projekty OOP</value></data>
   <data name="OopDesc" xml:space="preserve"><value>Zbiór projektów akademickich demonstrujących podstawowe zasady programowania obiektowego (OOP) oraz wzorce projektowe.</value></data>
   <data name="ContactTitle" xml:space="preserve"><value>Bądźmy w kontakcie</value></data>

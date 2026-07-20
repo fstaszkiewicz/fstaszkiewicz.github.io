@@ -22,20 +22,20 @@
   <data name="SectionProjects" xml:space="preserve"><value>Some Things I've Built</value></data>
   <data name="Featured" xml:space="preserve"><value>Featured Project</value></data>
   <data name="CinemaTitle" xml:space="preserve"><value>Cinema Reservation API</value></data>
-  <data name="CinemaDesc" xml:space="preserve"><value>A multi-layer REST API for movie theater operations, built strictly following Clean Architecture principles to ensure high maintainability.</value></data>
+  <data name="CinemaDesc" xml:space="preserve"><value>A REST API for movie theater operations designed with a focus on clear separation of concerns and maintainability.</value></data>
   <data name="EsportsTitle" xml:space="preserve"><value>Esports Hub</value></data>
-  <data name="EsportsDesc" xml:space="preserve"><value>A web application for managing esports tournaments, featuring custom role-based access control and automated local database migrations.</value></data>
+  <data name="EsportsDesc" xml:space="preserve"><value>A web application for managing esports tournaments, featuring role-based access control and automated local database migrations.</value></data>
   <data name="AiTitle" xml:space="preserve"><value>AI Invoice Processing API</value></data>
-  <data name="AiDesc" xml:space="preserve"><value>A containerized backend application that integrates with external AI models via the Hugging Face API to process and analyze data.</value></data>
+  <data name="AiDesc" xml:space="preserve"><value>A containerized backend application that integrates with the Hugging Face API to automatically analyze and extract data from invoices.</value></data>
   <data name="OtherProjects" xml:space="preserve"><value>Other Noteworthy Projects</value></data>
   <data name="TricityTitle" xml:space="preserve"><value>Tricity Trails Recommender</value></data>
-  <data name="TricityDesc" xml:space="preserve"><value>A recommendation system designed to suggest optimal trail routes across the Tricity area based on user preferences and terrain parameters.</value></data>
+  <data name="TricityDesc" xml:space="preserve"><value>Python desktop application that recommends Tricity trails using user preference filtering and weather comfort scoring via the Open-Meteo API.</value></data>
   <data name="DjangoTitle" xml:space="preserve"><value>Django Library System</value></data>
-  <data name="DjangoDesc" xml:space="preserve"><value>A library management web application built with Django. It handles book inventories, user checkouts, and administrative tasks.</value></data>
+  <data name="DjangoDesc" xml:space="preserve"><value>Django library management system handling inventory, loans, and reservations. Features an extended admin panel, automated tasks, and reporting tools using Pandas and Matplotlib.</value></data>
   <data name="AisdTitle" xml:space="preserve"><value>Algorithms &amp; Data Structures</value></data>
-  <data name="AisdDesc" xml:space="preserve"><value>Implementations of fundamental algorithms and complex data structures, including custom priority queues and Huffman compression.</value></data>
+  <data name="AisdDesc" xml:space="preserve"><value>Python implementation of Huffman file compression and a custom min-heap priority queue.</value></data>
   <data name="OopTitle" xml:space="preserve"><value>OOP Assignments</value></data>
-  <data name="OopDesc" xml:space="preserve"><value>A collection of academic assignments demonstrating core Object-Oriented Programming principles and design patterns.</value></data>
+  <data name="OopDesc" xml:space="preserve"><value>A staged collection of Java assignments built with a strong test-based focus, validating requirements through comprehensive JUnit test suites.</value></data>
   <data name="ContactTitle" xml:space="preserve"><value>Get In Touch</value></data>
   <data name="ContactDesc" xml:space="preserve"><value>I'm currently looking for a summer internship and new opportunities. Whether you have a question regarding my projects or just want to say hi, I'll try my best to get back to you!</value></data>
   <data name="ContactBtn" xml:space="preserve"><value>Say Hello</value></data>
