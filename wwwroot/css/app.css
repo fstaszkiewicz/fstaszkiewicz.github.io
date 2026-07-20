@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-container {
-    padding: 0 150px;
+    padding: 0 75px;
     max-width: 1600px;
     margin: 0 auto;
     min-height: 100vh;
@@ -328,6 +328,22 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+/* --- Hero Section --- */
+.hero-section {
+    max-width: 1000px;
+    margin-top: 12vh;
+}
+
+.hero-greeting {
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    max-width: 540px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
 .nav-logo {
     color: var(--green);
     font-family: var(--font-mono);
@@ -519,36 +535,115 @@ h1, h2, h3, h4, h5, h6 {
     top: 0.5rem;
 }
 
+/* Przycisk CV w nawigacji */
+.nav-resume-btn {
+    color: var(--green) !important;
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem !important;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.nav-resume-btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    /* 1. Główne kontenery (zmniejszamy ogromne marginesy boczne z 50px na 20px) */
     .main-container {
-        padding: 0 50px;
+        padding: 0 20px;
+    }
+    
+    .main-content {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
+    /* 2. Pasek nawigacji (ciaśniejsze ułożenie elementów) */
+    .nav-header {
+        padding: 0 20px;
+    }
+    
+    .nav-links {
+        gap: 10px;
+    }
+    
+    .nav-links a {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .lang-switcher {
+        margin-left: 10px;
+    }
+
+    /* 3. Naprawa linii przy nagłówkach (zapobiega poziomemu paskowi przewijania) */
+    .section-heading {
+        font-size: clamp(20px, 5vw, 24px);
+    }
+    
+    .section-heading::after {
+        width: 100%; /* Płynna szerokość zamiast sztywnych 300px */
+        margin-left: 15px;
+    }
+
+    /* 4. Przyciski (zapobiega łamaniu wyrazów w połowie) */
+    .outline-button {
+        padding: 1rem 1.25rem;
+        font-size: 0.9rem;
+        white-space: nowrap; /* Wymusza tekst w jednej linii */
+    }
+
+    /* 5. Stopka (wymusza równe układanie linków w poziomie) */
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .social-links a {
+        margin: 0;
+    }
+
+    /* 6. Projekty (korekta paddingu wewnątrz kart na telefonach) */
     .featured-project .project-content {
         grid-column: 1 / -1 !important;
-        padding: 40px 40px 30px;
+        padding: 30px 15px; 
         text-align: left !important;
     }
-
+    
     .featured-project .project-image {
         grid-column: 1 / -1 !important;
-        opacity: 0.25; 
+        opacity: 0.15; /* Przyciemniamy lekko tło, by tekst na nim był czytelniejszy */
         border: none;
     }
-
+    
     .featured-project .project-description {
         padding: 0;
         background-color: transparent;
         box-shadow: none;
     }
-
+    
     .featured-project:nth-of-type(even) .tech-list,
     .featured-project:nth-of-type(even) .project-links {
         justify-content: flex-start;
     }
-
+    
     .featured-project:nth-of-type(even) .tech-list li {
         margin: 0 20px 5px 0;
     }
+
+    /* Korekta przycisku CV dla telefonów */
+    .nav-resume-btn {
+        margin-left: 15px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem !important;
+    }
 }
+

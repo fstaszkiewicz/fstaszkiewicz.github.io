@@ -41,4 +41,5 @@
   <data name="ContactBtn" xml:space="preserve"><value>Napisz do mnie</value></data>
   <data name="NavProjects" xml:space="preserve"><value>Projekty</value></data>
   <data name="NavContact" xml:space="preserve"><value>Kontakt</value></data>
+  <data name="NavResume" xml:space="preserve"><value>CV</value></data>
 </root>

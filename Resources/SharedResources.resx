@@ -17,7 +17,7 @@
   <data name="HeroGreeting" xml:space="preserve"><value>Hi, my name is</value></data>
   <data name="HeroName" xml:space="preserve"><value>Fabian Staszkiewicz.</value></data>
   <data name="HeroSubtitle" xml:space="preserve"><value>I build robust backend systems.</value></data>
-  <data name="HeroDesc" xml:space="preserve"><value>I'm a computer science student and a software developer specializing in building scalable applications and REST APIs. Currently, my main focus is developing reliable architectures using .NET Core, C#, and Entity Framework. I am actively looking for a summer internship opportunity.</value></data>
+  <data name="HeroDesc" xml:space="preserve"><value>I'm a computer science student and a software developer specializing in building scalable applications. Currently, my main focus is developing reliable architectures using .NET Core, C#, and Entity Framework. I am actively looking for a summer internship opportunity.</value></data>
   <data name="HeroBtn" xml:space="preserve"><value>Check out my GitHub!</value></data>
   <data name="SectionProjects" xml:space="preserve"><value>Some Things I've Built</value></data>
   <data name="Featured" xml:space="preserve"><value>Featured Project</value></data>
@@ -41,4 +41,5 @@
   <data name="ContactBtn" xml:space="preserve"><value>Say Hello</value></data>
   <data name="NavProjects" xml:space="preserve"><value>Projects</value></data>
   <data name="NavContact" xml:space="preserve"><value>Contact</value></data>
+  <data name="NavResume" xml:space="preserve"><value>Resume</value></data>
 </root>
