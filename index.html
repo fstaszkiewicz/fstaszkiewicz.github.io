@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <base href="/" />
-    <link href="_framework/dotnet.k53ndljprr.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-uIAG9b2n2U5mKvnzXX/mtD5J7KXTsDEj8/xcESiIKx0=" />
+    <link href="_framework/dotnet.zneopq1u6u.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-wa7wUTc/iDqONq5R4PXOpKtDfuX9mRlv4boWvukuXzs=" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="Portfolio.styles.css" rel="stylesheet" />
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.958z1vx7fr.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.puryxhmhq9.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.web2r9gqbh.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.zneopq1u6u.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.958z1vx7fr.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
+    "./_framework/blazor.webassembly.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
+    "./_framework/dotnet.js": "sha256-wa7wUTc/iDqONq5R4PXOpKtDfuX9mRlv4boWvukuXzs=",
+    "./_framework/dotnet.native.js": "sha256-gQbHHzCnWx8iDOC65EKbql7bEltJkfao7lmkAbIRajw=",
+    "./_framework/dotnet.native.puryxhmhq9.js": "sha256-gQbHHzCnWx8iDOC65EKbql7bEltJkfao7lmkAbIRajw=",
+    "./_framework/dotnet.runtime.js": "sha256-SOUHEQ3FhDAibBSR2u90NWZpoBjPuWRmH0BAATUlhJU=",
+    "./_framework/dotnet.runtime.web2r9gqbh.js": "sha256-SOUHEQ3FhDAibBSR2u90NWZpoBjPuWRmH0BAATUlhJU=",
+    "./_framework/dotnet.zneopq1u6u.js": "sha256-wa7wUTc/iDqONq5R4PXOpKtDfuX9mRlv4boWvukuXzs="
+  }
+}</script>
     <style>
         .loading-overlay {
             position: fixed;
@@ -18,21 +37,21 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #0a192f; 
+            background-color: #0a192f; /* To samo co --navy */
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             z-index: 9999;
-            color: #64ffda; 
+            color: #64ffda; /* To samo co --green */
             font-family: monospace;
             font-size: 1.5rem;
         }
         .loading-spinner {
             width: 40px;
             height: 40px;
-            border: 3px solid #233554;
-            border-top-color: #64ffda; 
+            border: 3px solid #233554; /* --lightest-navy */
+            border-top-color: #64ffda; /* --green */
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
             margin-bottom: 15px;
@@ -54,21 +73,7 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    
     <script src="_framework/blazor.webassembly.958z1vx7fr.js"></script>
-    
-    <script>
-        window.scrollToElement = (elementId) => {
-            const element = document.getElementById(elementId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        };
-
-        window.scrollToTop = () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        };
-    </script>
 </body>
 
 </html>
