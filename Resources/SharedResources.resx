@@ -42,4 +42,5 @@
   <data name="NavProjects" xml:space="preserve"><value>Projects</value></data>
   <data name="NavContact" xml:space="preserve"><value>Contact</value></data>
   <data name="NavResume" xml:space="preserve"><value>Resume</value></data>
+  <data name="CvFileName" xml:space="preserve"><value>cv_fabian_staszkiewicz_en.pdf</value></data>
 </root>
